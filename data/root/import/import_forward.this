@@ -1,0 +1,1 @@
+{"content":"package A{\n    import B._\n    type X = Y\n    package B{\n        type Y = i32\n    }\n}","test_result":{"errors":[],"annotations":[]}}

@@ -1,0 +1,1 @@
+{"content":"type X[T[_]]{\n\tval x : T[Int]\n}","test_result":{"errors":[{"range":{"start":{"row":1,"column":9},"end":{"row":1,"column":10}},"message":"Can only evaluate higher order types"}],"annotations":[]}}

@@ -1,0 +1,1 @@
+{"content":"type A{}\nclass B{\n    def g: String\n    def f: String\n}\n\nclass A_Derived = A{}\nclass B_Derived = B{\n    def g: \"good\"\n    def f: i32\n}","test_result":{"errors":[],"annotations":[]}}

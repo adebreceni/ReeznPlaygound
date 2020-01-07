@@ -1,0 +1,1 @@
+{"content":"class A[T]{\n    val x: T\n}\n\ndef f(a: A[i32]): i32 = {\n    val A(x) = a\n}","test_result":{"errors":[],"annotations":[{"position":{"row":6,"column":1},"segments":[{"value":": "},{"value":"`__BlockExpression.ToValueImpl is unimplemented__`","error":"Not assignable to i32"}]},{"position":{"row":5,"column":11},"segments":[{"value":": "},{"value":"i32"}]}]}}

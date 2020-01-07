@@ -1,0 +1,1 @@
+{"content":"package std{\n    type unsigned = u32\n    type int = i32\n}\n\ndef f(a: A): Unit = {\n    import std._, a.{x => e, inner._}\n    val t: unsigned = e + z\n}\n\nclass A{\n    val x: u32\n    val inner: B\n    class B{\n        val z: u32\n    }\n}","test_result":{"errors":[],"annotations":[]}}

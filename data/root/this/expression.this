@@ -1,0 +1,1 @@
+{"content":"class A{\n\tval x: i32\n\tdef get: `this.x` = x\n}\n\ndef test(a: A) = {\n\tval a_x: `a.x` = a.get()\n}","test_result":{"errors":[],"annotations":[{"position":{"row":6,"column":25},"segments":[{"value":": "},{"value":"`a.get()`","error":"Not assignable to `a.x`"}]}]}}

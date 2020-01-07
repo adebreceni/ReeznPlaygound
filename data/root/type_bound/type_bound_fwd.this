@@ -1,0 +1,1 @@
+{"content":"def f[S <: {val x: 0}] = {\n    g[S]()\n}\n\ndef g[T <: {val x: 0}] = {\n    0\n}","test_result":{"errors":[],"annotations":[]}}

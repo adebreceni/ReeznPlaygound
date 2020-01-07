@@ -1,0 +1,1 @@
+{"content":"package std{\n    type unsigned = u32\n}\n\npackage A{\n    import std._\n    def id(x: unsigned): u32 = x\n}","test_result":{"errors":[],"annotations":[]}}

@@ -1,0 +1,1 @@
+{"content":"class X{}\n\nclass Option[T]{}\ntype Get[T] = T match {\n\tcase X => String\n\tcase Option[a] => a\n}\n\ntype A = Option[i32]\ntype X = [Get[Option[i32]], Get[Option[f64]], Get[X]]\n\ntype Z = [i32, String, 5] match {\n\tcase [a,b,c] => c\n}","test_result":{"errors":[],"annotations":[]}}

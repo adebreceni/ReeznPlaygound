@@ -1,0 +1,1 @@
+{"content":"val x: {def <(a: i32): Bool} = 4\n","test_result":{"errors":[],"annotations":[]}}

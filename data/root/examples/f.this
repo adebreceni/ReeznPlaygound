@@ -1,0 +1,1 @@
+{"content":"def f: Any = {\n\timport x.{}\n}","test_result":{"errors":[],"annotations":[{"position":{"row":2,"column":1},"segments":[{"value":": "},{"value":"`__BlockExpression.ToValueImpl is unimplemented__`","error":"Not assignable to Any"}]}]}}

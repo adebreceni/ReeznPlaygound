@@ -1,0 +1,1 @@
+{"content":"package P7{\n    import P8._, P9._\n    package P8{\n        type X = Y\n    }\n    package P9{\n        type Y = X\n    }\n}","test_result":{"errors":[],"annotations":[]}}
