@@ -1,0 +1,1 @@
+{"content":"class W{\n\tval x: i32\n\tdef isNat: (true with {val p: `this.x > 0` & true}) | \n\t\t\t\t(false with {val p: `this.x > 0` & false}) = {\n\t\t\n\t}\n}"}

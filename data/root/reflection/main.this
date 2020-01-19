@@ -1,0 +1,1 @@
+{"content":"class A{\n\tval x: i32\n\tval y: i32\n\ttype Inner = String\n}\n\nclass B{\n\tval z: String\n}\n\ntype F[T] = T\n\nval x = reflect(A)\nval y = reflect F[i32]\nval z = reflect A.Inner\n\nval union = reflect(A|B)","test_result":{"errors":[],"annotations":[]}}

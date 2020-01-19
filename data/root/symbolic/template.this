@@ -1,0 +1,1 @@
+{"content":"def f[T <: symbolic i32](x: T): T = 0\n\ndef g[T](x: symbolic T, y: symbolic T): T = 0\n\ndef test(x: i32, y: symbolic i32) = {\n\tval r1 = f(x)\n\tval r2 = f(y)\n\n\tval r3 = g(x, y)\n\tval r4 = g(y, x)\n}"}

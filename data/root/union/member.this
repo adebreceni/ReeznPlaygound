@@ -1,0 +1,1 @@
+{"content":"class A{\n\tval x: i32\n}\n\nclass B{\n\tval x: String\n\tval y: f64\n}\n\ndef f(a: A|B) = {\n\tval [x, y] = [a.x, a.y]\n}"}

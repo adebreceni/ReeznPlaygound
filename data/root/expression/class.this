@@ -1,0 +1,1 @@
+{"content":"class A{\n\tval x: i32\n\tval y: i32\n}\n\nclass B[X <: i32, Y <: i32]{\n\tval x: X\n\tval y: Y\n}\n\ndef f = {\n\tval x0 = A(5, 6).x\n\tval x1 = B(5, 6).x\n\n\tval a = A(y = 9, x = 2)\n\tval a0 = a.y\n\tval a1 = a.x\n\tval a2 = a.z\n\n\tval b = A(x = 6, 8)\n\tval b1 = b.x\n\tval b2 = b.y\n}","test_result":{"errors":[],"annotations":[]}}

@@ -1,0 +1,1 @@
+{"content":"def f(a: i32, b: symbolic i32, c: String & symbolic i32, d: i32 & String) = {\n\tf(a, b, c, d)\n\tf(b, c, d, a)\n\tf(c, d, a, b)\n\tf(d, a, b, c)\n}"}

@@ -1,0 +1,1 @@
+{"content":"class State{\n\tval x: i32\n}\n\nclass Var{\n\tdef ++ using (in: State): `in` with {val x: `in.x + 1`}\n}\n\ndef incr(v: Var) using (in: State) = {\n\tv++\n}","test_result":{"errors":[],"annotations":[{"position":{"row":9,"column":4},"segments":[{"value":" using ("},{"value":"in"},{"value":")"}]}]}}
