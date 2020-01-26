@@ -1,0 +1,1 @@
+{"content":"implicit for {\n\tdef (x: true) || (y: Bool): true\n\tdef (x: Bool) || (y: true): true\n\tdef (x: false) || (y: Bool): `y`\n\tdef (x: Bool) || (y: false): `x`\n}\n\ndef f(x: Bool) = {\n\tval a = true || x\n\tval b = x || true\n\tval c = false || x\n\tval d = x || false\n}"}

@@ -1,0 +1,1 @@
+{"content":"class Outer{self=>\n\tval y: i32\n\tdef getInner: {val x: i32; def get: `this.x + self.y`}\n}\n\ndef f(s: Outer) = {\n\tval inner = s.getInner()\n\tval res = inner.get()\n}","test_result":{"errors":[],"annotations":[]}}

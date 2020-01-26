@@ -1,0 +1,1 @@
+{"content":"type S[T <: Singleton] = T\n\ntype R = S[i32]\ntype U = S[5]\n\ndef f(x: i32) = {\n\ttype X = S[`x`]\n}","test_result":{"errors":[],"annotations":[]}}

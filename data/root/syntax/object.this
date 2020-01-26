@@ -1,0 +1,1 @@
+{"content":"class A{\n\tval x: i32;\n\tval y: i32,\n\ttype T = i32\n\tz: String\n}\n\ntype O = {a:i32, b: String}"}
