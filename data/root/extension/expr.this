@@ -1,0 +1,1 @@
+{"content":"class A1{\n\tx: i32 >: i32\n}\n\nclass B1 = A1{\n\tx: 5\n}\n\ndef f(a: {x: i32 >: i32}): `a` with {x: `a.x+1`} = ...\n\ndef main(x: B1) = {\n\tval y = f(x)\n\tval z = f(y)\n\tval x1 = y.x\n\tval x2 = z.x\n}\n\n\ndef g(a: {x: i32}): `a` with {x: `a.x+1`} = ...","test_result":{"errors":[],"annotations":[]}}
