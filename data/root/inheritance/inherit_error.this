@@ -1,1 +1,1 @@
-{"content":"type A{}\nclass B{\n    def g: String\n    def f: String\n}\n\nclass A_Derived = A{}\nclass B_Derived = B{\n    def g: \"good\"\n    def f: i32\n}","test_result":{"errors":[],"annotations":[]}}
+{"content":"type A{}\nclass B{\n    def g: String\n    def f: String\n}\n\nclass A_Derived = A{}\nclass B_Derived = B{\n    def g: \"good\"\n    def f: i32\n}","test_result":{"errors":[{"range":{"start":{"row":9,"column":0},"end":{"row":9,"column":14}},"message":"()=>i32is not a subtype of base field's type"}],"annotations":[]}}

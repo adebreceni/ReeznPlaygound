@@ -1,0 +1,1 @@
+{"content":"class Vec[T]{\n\tlength: i32\n\tdef get(idx: i32): T\n}\n\ntype Order[T]{\n\tdef <=(other: T): Bool\n}\n\nclass OrderedVec[T <: Order[T]] = Vec[T]{\n\tdef proof(idx1: i32, idx2: i32, p: `idx1 <= idx2`): `get(idx1) <= get(idx2)`\n}\n\n\n"}

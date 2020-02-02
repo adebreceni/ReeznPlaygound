@@ -1,0 +1,1 @@
+{"content":"class if{\n\tcond: Bool\n\tdef then(fn: (p: `this.cond`)=>Bool): i32\n}\n\ndef main = {\n\tval x: i32 = 5\n\tval f = if(x < 0)\n\tval cond = f.cond\n\tif(x < 5).then(p=>p)\n}","test_result":{"errors":[],"annotations":[]}}

@@ -1,0 +1,1 @@
+{"content":"class State{\n\tresult: i32 >: i32\n}\n\nclass Expr[T]{\n\tdef call(in: Nothing): {result: T}\n}\n\nclass FiveExp = Expr[i32]{\n\tdef call(in: State): `in` with {result: 5}\n}"}
