@@ -1,0 +1,1 @@
+{"content":"class A{\n\tdef f: i32 = 0\n}\n\nclass B = A{\n\tdef g: i32 = this.f() + f()\n}\n\n\n\n","test_result":{"errors":[],"annotations":[]}}

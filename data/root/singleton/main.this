@@ -1,1 +1,1 @@
-{"content":"type S[T <: Singleton] = T\n\ntype R = S[i32]\ntype U = S[5]\n\ndef f(x: i32) = {\n\ttype X = S[`x`]\n}","test_result":{"errors":[],"annotations":[]}}
+{"content":"type S[T <: Singleton] = T\n\ntype R = S[i32]\ntype U = S[5]\n\ndef f(x: i32) = {\n\ttype X = S[`x`]\n}","test_result":{"errors":[{"range":{"start":{"row":2,"column":11},"end":{"row":2,"column":14}},"message":"Invalid type argument"}],"annotations":[]}}

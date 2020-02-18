@@ -1,0 +1,1 @@
+{"content":"class A{\n\tx: i32\n\tp: `x < 0`\n}\n\ndef main = {\n\tval a = A(4, 4 < 0)\n\tval A(x, p) = a\n}"}

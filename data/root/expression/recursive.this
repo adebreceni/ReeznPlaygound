@@ -1,0 +1,1 @@
+{"content":"class A{\n\ta: i32|A\n}\n\ndef f(x: i32): `f(x-1)` = 0\n\nval a = f(5)\n\ndef g(x: i32): `A(g(x))` = 0\n\nval b = g(5).a","test_result":{"errors":[],"annotations":[]}}

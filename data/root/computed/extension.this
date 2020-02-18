@@ -1,0 +1,1 @@
+{"content":"class Var{self=>\n\tname: String\n\tother: String\n\tdef call(in: {vars: {(self.name): i32}, result >: i32}): \n\t\t`in` with {result: `in.vars.(self.name)`}\n\n\tdef call2(in: {vars: {(self.name): i32}, result >: i32}): \n\t\t`in` with {result: `in.vars.(self.other)`}\n}\n\n\n \n\n\n\n\n\n\n\n","test_result":{"errors":[],"annotations":[]}}

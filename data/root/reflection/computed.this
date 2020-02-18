@@ -1,0 +1,1 @@
+{"content":"def f(name: String) = {\n\ttype T = {(name): i32}\n\tval t = reflect T\n}"}
