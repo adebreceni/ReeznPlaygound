@@ -1,0 +1,1 @@
+{"content":"class while[In, Out]{\n\tcond: (in: In)=>Out\n\tdef do(fn: (p: Out)=>In): Any\n}\n\ndef f(s: {}) = {\n\twhile((in: i32)=>[in > 0, in]).do(p=>\n\t\t{\n\t\t\tval [_, x] = p\n\t\t\tx\n\t\t}\n\t)\n} ","test_result":{"errors":[],"annotations":[]}}

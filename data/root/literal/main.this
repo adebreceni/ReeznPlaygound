@@ -1,0 +1,1 @@
+{"content":"val a : \"x\" = \"x\"\nval b : \"y\" = \"x\"\n\nval c: 5 = 5\nval d: 6 = 5\n\nval x = \"x\"\nval y = \"y\"\nval z: [\"x\", \"y\"] = [x, x]\n\nval [t1, t2: \"y\"] = [x, x]","test_result":{"errors":[],"annotations":[]}}

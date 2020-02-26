@@ -1,0 +1,1 @@
+{"content":"val t = [\"one\", \"two\"]\n\nval f = t.(\"0\")\nval s = t.(\"1\")\n\ntype T = [i32, String]\n\nval k = reflect T","test_result":{"errors":[],"annotations":[]}}

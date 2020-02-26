@@ -1,0 +1,1 @@
+{"content":"class List[T]{}\n\nval nil = List[Any]()\n\nclass ::[T] = List[T]{head: T, tail: List[T]}\n\ndef f(l: ::[i32]): i32 = l match {\n\tcase (h: i32) :: t => h\n\tcase _ => 0\n}","test_result":{"errors":[],"annotations":[]}}

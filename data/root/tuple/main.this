@@ -1,0 +1,1 @@
+{"content":"def f(t: [\"one\", \"two\", \"three\"]) = {\n\tval a = t.0\n\tval b = t.1\n\tval c = t.2\n\tval d = t.3\n\tval e = t.00\n\n\tval f = t.(\"0\")\n}\n\nclass A{inner: Any}\n\ndef g() = {\n\tval t = [\"one\", A([5, 6])]\n\tval a = t.1\n\tval inner = a.inner\n\tval first = inner.0\n}","test_result":{"errors":[],"annotations":[]}}

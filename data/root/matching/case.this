@@ -1,0 +1,1 @@
+{"content":"class A{x: i32, y: i32}\n\ndef f(a: A) = {\n\tval res = a match {\n\t\tcase _ A y => y\n\t\tcase A(x, y) => [x, y]\n\t}\n\tval t = res\n}\n\nclass List[T]{}\n\nclass ::[T] = List[T]{head: T, tail: List[T]}\n\ndef fact(n: i32) = n match {\n\tcase a A b if n < 2 => 1\n\tcase _ => n*fact(n-1)\n}","test_result":{"errors":[],"annotations":[]}}
