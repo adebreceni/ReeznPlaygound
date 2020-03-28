@@ -1,0 +1,1 @@
+{"content":"implicit for i32 = 4\n\ndef f(x: i32) using (y: i32): i32 = x+y\n\ndef main = {\n\tf(y=4)\n}"}

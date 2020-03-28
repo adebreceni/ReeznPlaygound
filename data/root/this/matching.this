@@ -1,0 +1,1 @@
+{"content":"class Set[T] = T match {\n\tcase 'i32 => {\n\t\tdef sum(): i32 = {\n\t\t\tval self: Set[i32] = this\n\t\t}\n\t}\n}"}

@@ -1,1 +1,1 @@
-{"content":"def f(x: Any) = {\n\tval a = x.k\n}"}
+{"content":"def f(x: Any) = {\n\tval a = x.k\n}\n\nval a: Any = \"banana\"\nval n: Nothing = 0\nval z: \"lol\" = n","test_result":{"errors":[],"annotations":[]}}

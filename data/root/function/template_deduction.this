@@ -1,0 +1,1 @@
+{"content":"class FunctionCall[Arg, Ret] = Expr[Ret]{\n\tfn: Expr[Function[Arg, Ret]]\n}\n\nclass Expr[T]{\n\tval fn >: Any\n}\n\nclass Function[Arg, Ret]{}\n\nclass Var[T] = Expr[T]{}\n\ndef main(fn: Var[Function[i32, String]]) = {\n\tval call = FunctionCall(fn)\n\n\tval reduced: Expr[String] = call\n\tval m = reduced.fn\n}","test_result":{"errors":[],"annotations":[]}}

@@ -1,0 +1,1 @@
+{"content":"class ref[T] = T{}\n\nclass A{x: i32}\n\ndef f(a: ref[A]) = {\n\tval x = a.x\n}"}

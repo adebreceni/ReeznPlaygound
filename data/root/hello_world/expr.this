@@ -1,0 +1,1 @@
+{"content":"class Expr[T]{}\n\nclass OpExpr[T, U, Op <: Singleton & String]{\n\tleft: Expr[T]\n\tright: Expr[U]\n\top: Op\n}\n\nimplicit for {\n\tdef (l: Expr[T]) +[T, U] (r: Expr[U]): `OpExpr(l, r, \"+\")`\n}\n\ndef main(e1: Expr[i32], e2: Expr[i32]) = {\n\tval r = e1 + e2\n\tval r2 = OpExpr(e1, e2, \"+\")\n}"}

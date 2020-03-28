@@ -1,0 +1,1 @@
+{"content":"class Expr[T]{\n\tdef call[U <: {result >: T}](in: U): `in`{result: T}\n}\n\nclass VarExpr[T] = Expr[T]{\n\tname: String\n\tdef call(in: {result >: T, locals: {(this.name): T}}): `in`{result: T}\n}"}

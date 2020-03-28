@@ -1,0 +1,1 @@
+{"content":"def decr(x: i32, p: `x > 0` & true): i32 = 0\n\ndef f(x: Bool) = {\n\tval a = if x : 2 else 4\n\n\tval res = \n\t\tif x: (p=>p) else 4\n}\n\ndef g(a: i32) = {\n\n\tval r = \n\t\tif a > 0 : decr(a, _) else [_]\n\n}","test_result":{"errors":[],"annotations":[]}}

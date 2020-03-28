@@ -1,0 +1,1 @@
+{"content":"class A[T] = T match {\n\tcase [t, 'i32] => f64\n\tcase _ => \"error\"\n}\n\nclass B[T] = A[[T, i32]]"}

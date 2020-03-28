@@ -1,0 +1,1 @@
+{"content":"class A{\n\tx: i32\n\ty: i32\n\t// \"=\" is a valid method\n\tdef =(x: i32) = A(x, y)\n}\n\ndef f(a: A) = {\n\tval result = a = 5\n}\n\nclass =[A, B]{\n\tx: A\n\ty: B\n}\n\ndef g(in: i32 = f64): (i32 = f64) = {\n\tval (a = b) = in\n}","test_result":{"errors":[],"annotations":[]}}
